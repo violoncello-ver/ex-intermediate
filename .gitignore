@@ -31,3 +31,43 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Build ###
+/build/
+/target/
+/out/
+
+### Spring / Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### IDE ###
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+### Environment / Secrets ###
+# ローカル用設定はテンプレだけコミットする運用推奨
+application-local.yml
+application-local.properties
+application-*.secrets.yml
+application.yml

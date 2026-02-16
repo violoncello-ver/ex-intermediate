@@ -67,4 +67,4 @@ logs/
 
 ### Environment / Secrets ###
 # ローカル用設定はテンプレだけコミットする運用推奨
-*.yml
+src/main/resources/application.yml
